@@ -1,0 +1,314 @@
+
+
+body {
+    font-size: 14px;
+    background-color: hsl(217, 28%, 15%);
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.header .links :hover{
+    font-size: 16px;
+}
+
+.logo {
+    height: 25px;
+    margin-left: 30px;
+}
+
+.header .links {
+    margin:0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main .intro img {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    min-width: 400px;
+
+    
+}
+.main h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.main {
+    margin: 10px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h3 {
+    color: rgb(194, 189, 183);
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 200px;
+    font-family: sans-serif;
+}
+
+.btn button {
+    border: 2px solid turquoise;
+    border-radius: 25px;
+    padding: 10px 50px;
+    background-color: turquoise;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px auto;
+}
+.main2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px 200px;
+    gap: 50px 50px;
+    padding: 10px;
+}
+
+.main2 > div {
+    margin-right: 25px;
+    text-align: center;
+}
+.main2 > div > h2 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.main2 > div > p {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 10%;
+}
+
+.main3 h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main3 p {
+    color: rgb(189, 186, 186);
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.main3 a {
+    color: turquoise;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.main5 {
+    display: flex;
+    margin: 0 10%;
+}
+
+.main6 {
+    background-color: hsl(219, 30%, 18%);
+    border: 2px solid hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin: 20px 20px;
+    padding: 30px 10px;
+    color: rgb(200, 200, 200);
+    font-family: sans-serif;
+}
+
+.main6 img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    margin: 20px 0;
+    color: rgb(200, 200, 200);
+}
+.early {
+    border: 2px solid hsl(216, 53%, 9%);
+    background-color: hsl(216, 53%, 9%);
+    margin: 20px 25%;
+    padding: 20px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    font-family: sans-serif;
+}
+.early h2 {
+    margin: 20px 0;
+}
+.early p {
+    margin: 20px 0;
+}
+.early input {
+    width: 50%;
+    height: 35px;
+    border-radius: 25px;
+    padding: 0 20px;
+}
+.early2 input [type=email] :focus {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.early2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.early2 button {
+    height: 35px;
+    align-items: center;
+    display: flex;
+}
+
+.footer{
+    margin: 20px 100px;
+}
+
+.footer1 {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
+.footer2 {
+    display: flex;
+    width: 300px;
+    color: #fff;
+    
+}
+.footer2 img {
+    margin-right: 10px;
+}
+
+.footer3 {
+    display: flex;
+    width: 20%;
+    color: #fff;
+    margin :0  50px;
+   
+}
+.footer3 img{
+    margin-right: 10px;
+}
+.f1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+.f2 {
+    display: flex;
+}
+
+.links1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+
+}
+
+.links1 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.links2 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    color: #fff;
+    
+}
+i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+/* For Mobile screens */
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: rgb(28, 148, 78)
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .header .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .header .links {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .main .intro img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+    }
+}
